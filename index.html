@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div id="calculator">
+<input id="display" readonly value="0" >
+<div id="keys">
+    <button id="clear" onclick="clearDis()">C</button>
+    <button  id="backspace" onclick="delete1()">
+  <img src="https://static-00.iconduck.com/assets.00/backspace-icon-2048x1641-bpo9nlb4.png" alt="Backspace"></button>
+  <button onclick="left()">(</button>
+  <button onclick="right()">)</button>
+    <button onclick="divide()">/</button>
+    <button onclick="multiple()">x</button>
+    <button onclick="increase()">+</button>
+    <button onclick="decrease()">-</button>
+    <button onclick="res()">=</button>
+    <button onclick="dot()">.</button>
+    <button onclick="ziro()">0</button>
+    <button onclick="one()">1</button>
+    <button onclick="two()">2</button>
+    <button onclick="three()">3</button>
+    <button onclick="four()">4</button>
+    <button onclick="five()">5</button>
+    <button onclick="six()">6</button>
+    <button onclick="seven()">7</button>
+    <button onclick="eight()">8</button>
+    <button onclick="nine()">9</button>
+   </div>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
